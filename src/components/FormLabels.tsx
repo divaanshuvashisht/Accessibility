@@ -2,9 +2,15 @@ import React from 'react';
 
 const FormLabels = () => {
   return (
-    <div>
-      <h2>Form Labels</h2>
-      <p>This component demonstrates the difference between using a placeholder and a proper label for form inputs.</p>
+    <div className="component">
+      <h2>1. Form Labels</h2>
+      <p>
+        This component demonstrates the importance of programmatically associating labels with form inputs. 
+        This ensures that screen reader users understand the purpose of the input.
+      </p>
+      <p>
+        <strong>WCAG Guideline:</strong> <a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html" target="_blank" rel="noopener noreferrer">3.3.2 Labels or Instructions</a>
+      </p>
       
       <hr />
 
